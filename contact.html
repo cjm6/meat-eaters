@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Meat-eaters</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/hero-slider.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <a href="#" class="navbar-brand scroll-top">Meat-eaters</a>
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+                </div>
+                <!-- 导航 -->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#"><img src="img/logo1_03.jpg"></a>
+                        </li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Our Menus</a></li>
+                        <li><a href="blog.html">Blog Entries</a></li>
+                        <li><a href="welcome.html">welcome to us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- 轮播图 -->
+    <div id="mycaro" class="carousel slide" data-ride="carousel">
+        <!-- 小圆点-->
+        <ol class="carousel-indicators">
+            <li data-target="#mycaro" data-slide-to="0" class="active"></li>
+            <li data-target="#mycaro" data-slide-to="1"></li>
+            <li data-target="#mycaro" data-slide-to="2"></li>
+            <li data-target="#mycaro" data-slide-to="3"></li>
+        </ol>
+
+        <!-- 轮播图片 -->
+        <ul class="carousel-inner cs-imgs" role="listbox">
+            <li class="item active">
+                <img src="img/blog_item_04.jpg" alt="这是图片">
+                <!-- 当前轮播图的图片 -->
+                <div class="carousel-caption">
+                    美食诱惑1
+                </div>
+            </li>
+            <li class="item">
+                <img src="./img/blog_item_02.jpg" alt="这是图片">
+                <div class="carousel-caption">
+                    美食诱惑2
+                </div>
+            </li>
+            <li class="item">
+                <img src="./img/blog_item_03.jpg" alt="这是图片">
+                <div class="carousel-caption">
+                    美食诱惑3
+                </div>
+            </li>
+            <li class="item">
+                <img src="./img/blog_item_02.jpg" alt="这是图片">
+                <div class="carousel-caption">
+                    美食诱惑4
+                </div>
+            </li>
+        </ul>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#mycaro" role="button" data-slide="prev">
+            <!-- 字体图标 左箭头 -->
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <!-- 专门为残障人士设置的，屏幕浏览需要找到能够辨识的文本说明，并读出来给用户听 -->
+            <span class="sr-only">上一张</span>
+        </a>
+        <a class="right carousel-control" href="#mycaro" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">下一张</span>
+        </a>
+    </div>
+    <!-- 自动切换 -->
+    <script>
+        $("#mycaro").carousel({
+            interval: 2000
+        });
+    </script>
+
+    <!--  -->
+    <!-- 产品列表 -->
+    <div class="container cplist">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="tup">
+                    <img src="./img/ms1.jpg" class="imgcp" />
+                    <!-- 遮罩层 -->
+                    <div class="mask">
+                        <p>招牌烧鹅</p>
+                    </div>
+                </div>
+
+                <h4>招牌烧鹅</h4>
+                <p style="text-indent: 2em;">要讲哪里的烧鹅最出名，顺德当地人都会想到“伦教羊额烧鹅”。羊额烧鹅是顺德传统工艺食品之一，创制于明末清初，20世纪30年代开始闻名省内外，距今已有360多年历史。据说，清代同治年间...</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="tup">
+                    <img src="./img/ms4.jpg" class="imgcp" />
+                    <!-- 遮罩层 -->
+                    <div class="mask">
+                        <p>北方美食</p>
+                    </div>
+                </div>
+                <h4>北方美食</h4>
+                <p style="text-indent: 2em;">小吃是中国历史悠久、品种丰富、外观精美、风味独特的美食，同时也是中国传统文化的一部分。《北方风味小吃》搜集了北京、天津等具有北方特色的地遂小吃，并对其特点、制作过程进行了讲解，让你足不出户也能品尝到特色佳肴。</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="tup">
+                    <img src="./img/ms6.jpg" class="imgcp" />
+                    <!-- 遮罩层 -->
+                    <div class="mask">
+                        <p>美味虾饺</p>
+                    </div>
+                </div>
+                <h4>美味虾饺</h4>
+                <p style="text-indent: 2em;">虾饺是广东地区著名的传统小吃，属粤菜系，虾饺始创于20世纪初广州市郊伍村五凤乡的一间家庭式小茶楼，已经有百年历史。传统的虾饺是半月形、蜘蛛肚共有十二褶的，馅料有虾，有肉，有笋，味道鲜美爽滑，美味可口。</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="tup">
+                    <img src="./img/ms1.jpg" class="imgcp" />
+                    <!-- 遮罩层 -->
+                    <div class="mask">
+                        <p>招牌烧鹅</p>
+                    </div>
+                </div>
+
+                <h4>招牌烧鹅</h4>
+                <p style="text-indent: 2em;">要讲哪里的烧鹅最出名，顺德当地人都会想到“伦教羊额烧鹅”...</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="tup">
+                    <img src="./img/ms4.jpg" class="imgcp" />
+                    <!-- 遮罩层 -->
+                    <div class="mask">
+                        <p>北方美食</p>
+                    </div>
+                </div>
+                <h4>北方美食</h4>
+                <p style="text-indent: 2em;">小吃是中国历史悠久、品种丰富、外观精美、风味独特的美食，同时也是中国传统文化的一部分。《北方风味小吃》搜集了北京、天津等具有北方特色的地遂小吃，并对其特点、制作过程进行了讲解，让你足不出户也能品尝到特色佳肴。</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="tup">
+                    <img src="./img/ms6.jpg" class="imgcp" />
+                    <!-- 遮罩层 -->
+                    <div class="mask">
+                        <p>美味虾饺</p>
+                    </div>
+                </div>
+                <h4>美味虾饺</h4>
+                <p style="text-indent: 2em;">虾饺是广东地区著名的传统小吃，属粤菜系，虾饺始创于20世纪初广州市郊伍村五凤乡的一间家庭式小茶楼，已经有百年历史。传统的虾饺是半月形、蜘蛛肚共有十二褶的，馅料有虾，有肉，有笋，味道鲜美爽滑，美味可口。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 加盟请填写信息 -->
+    <section class="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-heading">
+                        <h2>个人信息</h2>
+                    </div>
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="名字：" required="">
+                                </fieldset>
+                                <fieldset>
+                                    <input name="email" type="text" class="form-control" id="email" placeholder="email：" required="">
+                                </fieldset>
+                                <fieldset>
+                                    <input name="phone" type="text" class="form-control" id="phone" placeholder="电话：" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="信息：" required=""></textarea>
+                                </fieldset>
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">提交信息</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="section-heading contact-info">
+                        <h2>欢饮加盟！</h2>
+                        <p>我们《食荤者》餐厅是一个集美丽与才华并存的地方，位于上海路xxx号，以经营精品粤菜、粤式茶点、特色小吃为主，兼营各地美食。出品菜式创新中融入岭南饮食文化特色，颇受宾客赞誉。大厅内提供免费WIFI服务。<br><br><em>2020-6-7 <br>0793-95533</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>cjm &copy; 2020-5-25~2020-6-7</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p>中国加油！</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

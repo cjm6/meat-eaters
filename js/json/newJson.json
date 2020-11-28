@@ -1,0 +1,35 @@
+{
+    "sites": {
+        "site": [{
+                "id": "1",
+                "name": "Stumptown Tofu Schlitz",
+                "url": "www.runoob.com"
+            },
+            {
+                "id": "2",
+                "name": "Crucifix Selvage Coat",
+                "url": "c.runoob.com"
+            },
+            {
+                "id": "3",
+                "name": "Stumptown Tofu Schlitz",
+                "url": "www.google.com"
+            },
+            {
+                "id": "4",
+                "name": "Stumptown Tofu Schlitz",
+                "url": "www.runoob.com"
+            },
+            {
+                "id": "5",
+                "name": "Stumptown Tofu Schlitz",
+                "url": "c.runoob.com"
+            },
+            {
+                "id": "6",
+                "name": "Stumptown Tofu Schlitz",
+                "url": "www.google.com"
+            }
+        ]
+    }
+}
